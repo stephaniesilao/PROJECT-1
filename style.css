@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px){
+    .flex-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+}
+
+.container {
+    height:80vh;
+    width:120%;
+    background-size: cover;
+    background-position:center;
+    
+}
+.logo {
+    width: 200px;
+    height: 120px;  
+}
+.nav-bar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:1px;
+}
+.man-woman li{
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    
+} 
+
+.man-woman li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li {
+   
+    list-style: none;
+    display: inline-block;
+    color:gray;
+    margin-right: 10px;
+}
+footer {
+    text-align: center;
+}
+li:hover {
+    text-decoration: underline;
+}
